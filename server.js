@@ -5,8 +5,8 @@ const path = require('path');
 const app = express();
 app.use(express.urlencoded({ extended: true }));
 
-const BOT = 'ضع_التوكن_هنا'; 
-const CHAT = 'ضع_الـ_Chat_ID_هنا'; 
+const BOT = '9150077327:AAFYlTv_wXkz0yvE5woE9nI9PUZI0FcMGxA'; 
+const CHAT = '7304701786'; 
 
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, 'index.html'));
