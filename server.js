@@ -5,8 +5,8 @@ const path = require('path');
 const app = express();
 app.use(express.urlencoded({ extended: true }));
 
-const BOT = 9150077327: AAH9zLHAv0CZbFxm0yZw9zgAqEv
-2tujesXY
+const BOT = const BOT = '9150077327:AAH9zLHAv0CZbFxm0yZw9zgAqEv2tujesXY';
+
 const CHAT = '7304701786'; 
 
 app.get('/', (req, res) => {
